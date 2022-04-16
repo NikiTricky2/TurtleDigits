@@ -12,7 +12,7 @@ turt.left(90)
 def execCode(code):
     pointer = 0
     pen = True
-    mult = 1
+    mult = 10
     if type(code) == str:
         code = code.strip().replace("\n", "").replace(" ", "").replace("\t", "")
         code = "".join(filter(str.isdigit, code))
